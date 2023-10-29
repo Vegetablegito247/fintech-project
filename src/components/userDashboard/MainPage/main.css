@@ -1,0 +1,16 @@
+.mainOptionsView {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.bodyMain {
+    width: 100%;
+}
+
+.outlets {
+    width: 100%;
+    height: 88vh;
+    overflow: hidden;
+    padding: 10px;
+}

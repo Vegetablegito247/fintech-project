@@ -1,0 +1,612 @@
+.landMain {
+    width: 100%;
+    padding: 6rem 30px;
+}
+
+.userContainer,
+.predict {
+    width: 100%;
+}
+
+.userContainer {
+    border-radius: 20px;
+    padding: 30px;
+    background-color: var(--secondaryColor);
+}
+
+.userExp {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    column-gap: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.exp,
+.expInfo {
+    width: 100%;
+}
+
+.expImg {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+.expImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.expInfo h3 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.expInfo p,
+.predictInfo p {
+    font-size: 16px;
+    color: #dfdfdf;
+    margin-top: 16px;
+}
+
+.userOpen {
+    width: 100%;
+    padding: 30px 0 0;
+}
+
+.userOpen,
+.userOpen a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userOpen a {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--accentColor);
+}
+
+.predictInfo h1 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.predict {
+    margin-top: 6rem;
+}
+
+.predictTable {
+    display: flex;
+    margin-top: 2rem;
+    column-gap: 2rem;
+}
+
+.predictChart {
+    width: 75%;
+    height: 400px;
+}
+
+.predictGuess {
+    width: 25%;
+    height: 400px;
+    background-color: var(--secondaryColor);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.guessHead {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    padding: 1rem 0 1.5rem;
+    font-size: 25px;
+    color: #ffffff;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.guessHead img {
+    width: 40px;
+    height: 40px;
+}
+
+.guessOpt {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.guessOpt p {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.optBtns {
+    width: 100%;
+    margin-top: 2.5rem;
+    display: grid;
+    row-gap: 16px;
+}
+
+.optBtns button {
+    width: 100%;
+    height: 65px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.optBtns button:first-child {
+    background-color: var(--accentColor);
+}
+
+.optBtns button:last-child {
+    background-color: #ff00008b;
+}
+
+.mobileAvail {
+    width: 100%;
+    background: url(../../../fintechImg/bgHead.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin-top: 6rem;
+}
+
+.mobileImg {
+    width: 770px;
+    height: 700px;
+    position: relative;
+    left: -120px;
+}
+
+.mobileImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.mobileInfo {
+    width: 400px;
+    position: relative;
+    left: -150px;
+    top: 180px;
+}
+
+.mobileInfo h1 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.mobileInfo p {
+    font-size: 18px;
+    color: rgb(175, 175, 175);
+    margin-top: 1rem;
+}
+
+.dwnloadMobile {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 3rem;
+    border-radius: 10px;
+    background-color: var(--secondaryColor);
+    transition: color .7s;
+    cursor: pointer;
+}
+
+.dwnloadMobile:hover {
+    background-color: rgb(25, 93, 221);
+}
+
+.dwnloadMobile:hover .playStoreIcon {
+    color: #ffffff;
+}
+
+.playStoreIcon {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(25, 93, 221);
+}
+
+.dwnloadInfo h6 {
+    font-size: 15px;
+    color: rgb(175, 175, 175);
+}
+
+.dwnloadInfo h3 {
+    font-size: 20px;
+    color: rgb(212, 212, 212);
+    margin-top: 10px;
+}
+
+.trading,
+.faqs,
+.startTrading {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.tradeInfo h1 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.tradeInfo h3 {
+    font-size: 25px;
+    color: #dfdfdf;
+    margin-top: 10px;
+}
+
+.tradeOption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.optTrades {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.optTradeImg {
+    width: 120px;
+    height: 130px;
+    margin-bottom: 2rem;
+}
+
+.optTradeImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.optTradeInfo {
+    text-align: center;
+}
+
+.optTradeInfo h3 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.optTradeInfo p {
+    font-size: 18px;
+    color: #dfdfdf;
+}
+
+.optTradeLinks {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--secondaryColor);
+    margin-top: 3rem;
+}
+
+.optTradeLinks,
+.optTradeLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.optTradeLinks a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.faqsHead h1 {
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.faqsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.faq {
+    background-color: var(--secondaryColor);
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.question {
+    justify-content: space-between;
+}
+
+.quest,
+.question {
+    display: flex;
+    align-items: center;
+}
+
+.quest {
+    column-gap: 10px;
+    color: #ffffff;
+}
+
+.quest h3,
+.fileIcon,
+.drop {
+    font-size: 20px !important;
+}
+
+.fileIcon {
+    color: rgb(25, 93, 221);
+}
+
+.dropIcon {
+    color: #ffffff;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .8s ease;
+}
+
+.answer p {
+    padding: 1rem 0 0;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.answer.active {
+    height: auto;
+    max-height: 300px;
+}
+
+.drop.active {
+    transform: rotate(90deg);
+}
+
+.startHeadImg {
+    width: 100%;
+    height: 430px;
+}
+
+.startHeadImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.startInfo {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.startInfo h1 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.startBtn {
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--accentColor);
+    margin: 2rem auto 0;
+}
+
+.startBtn,
+.startBtn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startBtn a {
+    column-gap: 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.candle {
+    font-size: 25px;
+}
+
+@media (max-width: 575px) {
+    .landMain {
+        padding: 4rem 30px;
+    }
+
+    .userExp {
+        grid-template-columns: 12fr;
+        row-gap: 1.5rem;
+    }
+
+    .exp {
+        border-bottom: 1px solid rgb(190, 190, 190);
+        padding: 0 0 30px;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .exp:last-child {
+        border-bottom: none;
+    }
+
+    .expInfo {
+        text-align: center;
+    }
+
+    .predictChart {
+        width: 65%;
+    }
+
+    .predictGuess {
+        width: 35%;
+    }
+
+    .guessHead {
+        padding: .8rem 5px 1rem;
+    }
+
+    .guessHead img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .guessHead h3 {
+        font-size: 20px;
+    }
+
+    .guessOpt {
+        margin-top: 1.5rem;
+    }
+
+    .guessOpt p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .optBtns {
+        margin-top: 2rem;
+    }
+
+    .mobileAvail {
+        display: contents;
+        background: none;
+    }
+
+    .mobileImg {
+        width: 100%;
+        height: 600px;
+        position: static;
+        background: url(../../../fintechImg/bgHead.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mobileImg img {
+        position: relative;
+        left: -80px;
+    }
+
+    .mobileInfo {
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+
+    .dwnloadMobile {
+        margin: 3rem auto 0;
+    }
+
+    .tradeOption,
+    .faqsList {
+        display: grid;
+        grid-template-columns: 12fr;
+        row-gap: 2rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .optTrades {
+        width: 100%;
+    }
+
+    .optTradeLinks {
+        width: 300px;
+    }
+
+    .quest {
+        width: 80%;
+    }
+
+    .startHeadImg {
+        height: 350px;
+    }
+}
+
+@media (max-width: 428px) {
+    .landMain {
+        padding: 4rem 20px;
+    }
+
+    .userContainer {
+        border-radius: 10px;
+    }
+
+    .predictTable {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .predictChart {
+        width: 100%;
+        height: 200px;
+    }
+
+    .predictGuess {
+        width: 250px;
+        margin: 0 auto 0;
+        height: fit-content;
+    }
+
+    .guessHead {
+        display: none;
+    }
+
+    .mobileImg {
+        height: 380px;
+    }
+
+    .mobileImg img {
+        left: -50px;
+    }
+
+    .mobileInfo h1,
+    .predictInfo h1,
+    .tradeInfo h1,
+    .faqsHead h1,
+    .startInfo h1 {
+        font-size: 25px;
+    }
+
+    .guessHead h3, .dwnloadInfo h3, .tradeInfo h3, .optTradeInfo h3, .quest h3 {
+        font-size: 20px;
+    }
+
+    .quest h3, .fileIcon {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .predictInfo p, .guessOpt p, .mobileInfo p, .optTradeInfo p, .optTradeLinks a, .answer p {
+        font-size: 16px;
+    }
+
+    .startHeadImg {
+        height: 200px;
+    }
+}

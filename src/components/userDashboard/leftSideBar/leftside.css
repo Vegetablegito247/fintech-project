@@ -1,0 +1,33 @@
+.leftSide {
+    width: 12vw;
+    height: 100vh;
+    background-color: var(--secondaryColor);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.sideList,
+.sideIcons,
+.sideInfo {
+    display: flex;
+    align-items: center;
+}
+
+.sideList {
+    column-gap: 10px;
+    text-decoration: none;
+    line-height: 40px;
+    width: 100%;
+    padding: 0 0 0 5px;
+    color: #ffffff;
+    transition: ease .7s;
+}
+
+.sideList:hover {
+    padding: 0 0 0 15px;
+}
+
+.sideList.active {
+    background-color: var(--accentColor);
+}
